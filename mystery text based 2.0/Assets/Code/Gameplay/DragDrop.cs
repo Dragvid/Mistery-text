@@ -37,12 +37,14 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler,IBeginDragHandler,IEn
     public void OnDrag(PointerEventData eventData)
     {
         //Debug.Log("OnDrag");
+        gameObject.transform.SetParent(canvas.transform);
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         //Debug.Log("OnEndDrag");
+        
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
         //arranjar isto
@@ -64,11 +66,12 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler,IBeginDragHandler,IEn
     }
     public void OnPointerDown(PointerEventData eventData)
     {
-        gameObject.transform.SetParent(canvas.transform);
-        
+        //gameObject.transform.SetParent(canvas.transform);
+
     }
     public void OnDrop(PointerEventData eventData)
     {
+        //gameObject.transform.SetParent(canvas.transform);
         /*if(gameObject.transform.parent.name == "Canvas"){
             Debug.Log("pos errada");
             gameObject.transform.position = posInicial;

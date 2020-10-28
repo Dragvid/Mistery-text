@@ -15,11 +15,13 @@ public class MainMenu : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
-        Debug.Log("quit");
     }
     public void Toturial()
     {
-        Debug.Log("tutorial");
         SceneManager.LoadScene("CaseTutorial");
+    }
+    public void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 }

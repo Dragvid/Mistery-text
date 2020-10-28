@@ -79,6 +79,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11502}
     - Class: 114
+      Script: {instanceID: 11614}
+    - Class: 114
       Script: {instanceID: 11624}
     - Class: 114
       Script: {instanceID: 11682}
@@ -163,6 +165,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11342}
     - Class: 114
       Script: {instanceID: 11502}
+    - Class: 114
+      Script: {instanceID: 11614}
     - Class: 114
       Script: {instanceID: 11624}
     - Class: 114
@@ -970,5 +974,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/Case1.unity
   - Assets/Scenes/CaseTutorial.unity
-  playerPath: C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery text(build)/mistery
-    text based 2.0.exe
+  playerPath: C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/Mystery
+    text(build)/mistery text based 2.0.exe

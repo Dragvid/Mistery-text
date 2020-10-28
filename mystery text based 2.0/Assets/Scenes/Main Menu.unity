@@ -711,7 +711,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 26.5, y: -0.94668}
+  m_AnchoredPosition: {x: 26.5, y: -0.94668007}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &697648945
@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 1010410932}
   - component: {fileID: 1010410931}
   m_Layer: 5
-  m_Name: START (1)
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1269,7 +1269,7 @@ PrefabInstance:
     - target: {fileID: 2744341476775659090, guid: 25726091cc388e84d8e27a0446e90bd8,
         type: 3}
       propertyPath: sounds.Array.data[0].volume
-      value: 1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2744341476775659091, guid: 25726091cc388e84d8e27a0446e90bd8,
         type: 3}
@@ -1372,7 +1372,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 26.5, y: -0.94668}
+  m_AnchoredPosition: {x: 26.5, y: -0.94668007}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273550358
@@ -1565,7 +1565,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 581081756}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1651,7 +1651,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 545, y: -388.92}
+  m_AnchoredPosition: {x: 545, y: -421}
   m_SizeDelta: {x: 865.7326, y: 71.51781}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1833122284
@@ -2066,7 +2066,7 @@ PrefabInstance:
     - target: {fileID: 955930385228053899, guid: c67142190200210468c3274e5b71c9b3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -50
+      value: -162
       objectReference: {fileID: 0}
     - target: {fileID: 955930385228053899, guid: c67142190200210468c3274e5b71c9b3,
         type: 3}
@@ -2117,6 +2117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: taskbar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074971043958983946, guid: c67142190200210468c3274e5b71c9b3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c67142190200210468c3274e5b71c9b3, type: 3}
