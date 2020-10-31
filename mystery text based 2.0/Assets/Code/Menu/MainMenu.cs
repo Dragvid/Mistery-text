@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void Toturial()
+    public void Tutorial()
     {
         SceneManager.LoadScene("CaseTutorial");
     }

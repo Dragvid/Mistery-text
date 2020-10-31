@@ -73,6 +73,13 @@
     <Compile Include="Assets\Code\Gameplay\MoreInfo.cs" />
     <Compile Include="Assets\Code\Gameplay\Submit.cs" />
     <Compile Include="Assets\Code\Menu\MainMenu.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\3.0.12\Sprite Shape Extras\Scripts\Clipper.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\3.0.12\Sprite Shape Extras\Scripts\ConformingSpline.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\3.0.12\Sprite Shape Extras\Scripts\GenerateSpriteShapes.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\3.0.12\Sprite Shape Extras\Scripts\GeometryCollider.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\3.0.12\Sprite Shape Extras\Scripts\LegacyCollider.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\3.0.12\Sprite Shape Extras\Scripts\SimpleDraw.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\3.0.12\Sprite Shape Extras\Scripts\Sprinkler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -661,8 +668,14 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -676,8 +689,32 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/dst30/OneDrive/Documents/unity code/Mystery text/Mistery-text/mystery text based 2.0/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
